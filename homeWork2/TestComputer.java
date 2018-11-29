@@ -3,13 +3,13 @@ package homeWork2;
 public class TestComputer {
 
 	public static void main(String[] args) {
-		computer comp1 = new computer("gray", 15 );
+		computer comp1 = new computer("Apple MacAir",8, 10, true, 750);
 		comp1.nameAndModel= "Apple MacAir";
 		comp1.space= 8;
 		comp1.ios=10;
 		comp1.mac= true;
 		comp1.myComputer();
-		computer.ourComputer();
+		//computer.ourComputer();
 
 		
 		
@@ -19,7 +19,11 @@ public class TestComputer {
 		computer.setColor("black");
 		computer.size= 18;
 		comp2.hisComputer();
+		
+		
+		computer comp3 = new computer ("blue", 15);
 		computer.ourComputer();
+		
 		
 				
 		
